@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <canvas class="webgl"></canvas>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section 1: Hero -->
+    <section class="section" id="hero">
+        <div class="section-content hero-content">
+            <p class="greeting">Hello, I'm</p>
+            <h1 class="name">Your Name</h1>
+            <p class="tagline">Aspiring Developer & Creative Thinker</p>
+            <div class="scroll-hint">
+                <span>Scroll to explore</span>
+                <div class="scroll-arrow">↓</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: About -->
+    <section class="section" id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <div class="about-text">
+                <p>
+                    I'm a passionate student with a keen interest in technology and creativity. 
+                    I love exploring new ideas and turning them into reality through code and design.
+                </p>
+                <p>
+                    When I'm not studying, you can find me gaming, learning new programming languages, 
+                    or working on personal projects that challenge me to grow.
+                </p>
+                <div class="about-details">
+                    <div class="detail-item">
+                        <span class="detail-label">Location</span>
+                        <span class="detail-value">Your City, Country</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Interests</span>
+                        <span class="detail-value">Gaming, Technology, Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Education -->
+    <section class="section" id="education">
+        <div class="section-content">
+            <h2>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Your School Name</h3>
+                        <p class="timeline-subtitle">High School Diploma</p>
+                        <p>Relevant coursework: Mathematics, Physics, Computer Science</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2020 - 2023</div>
+                    <div class="timeline-content">
+                        <h3>Previous School Name</h3>
+                        <p class="timeline-subtitle">Middle School</p>
+                        <p>Achievements: Honor Roll, Science Fair Participant</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Skills -->
+    <section class="section" id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Technical</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Python</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Figma</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Teamwork</span>
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Quick Learner</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Projects -->
+    <section class="section" id="projects">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">🎮</div>
+                    <h3>Project Name 1</h3>
+                    <p>A brief description of your project. What did you build? What technologies did you use?</p>
+                    <div class="project-tags">
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">🌐</div>
+                    <h3>Project Name 2</h3>
+                    <p>Another project description. Highlight what makes this project special or what you learned.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>API</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">🎨</div>
+                    <h3>Project Name 3</h3>
+                    <p>Description of a creative or design project. Show your range of interests and abilities.</p>
+                    <div class="project-tags">
+                        <span>Design</span>
+                        <span>Creative</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Experience -->
+    <section class="section" id="experience">
+        <div class="section-content">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2025</div>
+                    <div class="timeline-content">
+                        <h3>IT Intern</h3>
+                        <p class="timeline-subtitle">Company Name</p>
+                        <p>Learned about web development and Three.js. Built an interactive portfolio website.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>Volunteer / Club Activity</h3>
+                        <p class="timeline-subtitle">Organization Name</p>
+                        <p>Describe what you did and what skills you developed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7: Contact -->
+    <section class="section" id="contact">
+        <div class="section-content contact-content">
+            <h2>Get In Touch</h2>
+            <p class="contact-intro">
+                I'm always excited to connect with new people and explore opportunities. 
+                Feel free to reach out!
+            </p>
+            <div class="contact-links">
+                <a href="mailto:your.email@example.com" class="contact-link">
+                    <span class="contact-icon">✉️</span>
+                    <span>your.email@example.com</span>
+                </a>
+                <a href="https://github.com/yourusername" target="_blank" class="contact-link">
+                    <span class="contact-icon">💻</span>
+                    <span>github.com/yourusername</span>
+                </a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank" class="contact-link">
+                    <span class="contact-icon">💼</span>
+                    <span>LinkedIn Profile</span>
+                </a>
+            </div>
+            <p class="copyright">© 2026 Your Name</p>
+        </div>
+    </section>
+
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
