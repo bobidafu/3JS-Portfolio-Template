@@ -12,22 +12,22 @@ const CONFIG = {
 
     // 🔮 3D OBJECTS
     // Set to true to use your own 3D models, false to use default shapes
-    useCustomModels: true,
+    useCustomModels: false,
 
     // 🎨 KEEP ORIGINAL TEXTURES
     // Set to true to keep the model's original colors/textures
     // Set to false to apply toon shading (works best with simple/untextured models)
-    keepOriginalMaterials: true,
+    keepOriginalMaterials: false,
 
     // 🎬 PLAY ANIMATIONS
     // Set to true to play animations from GLTF/GLB models (if they have any)
     // Set to false to use the default rotation animation instead
-    playAnimations: true,
+    playAnimations: false,
 
     // 🖱️ DRAG TO ROTATE
     // Set to true to allow clicking/dragging on models to rotate them
     // Works on both desktop (mouse) and mobile (touch)
-    enableDragRotation: true,
+    enableDragRotation: false,
     dragSensitivity: 0.005,  // How fast the model rotates when dragging
 
     // 📁 CUSTOM 3D MODELS (only used if useCustomModels is true)
